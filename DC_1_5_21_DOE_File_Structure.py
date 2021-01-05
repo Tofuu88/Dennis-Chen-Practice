@@ -10,8 +10,6 @@ import os
 import shutil
 import pathlib
 
-# inp_file = r'C:\Users\denni\OneDrive\python try\File_Management_Practice\model.txt'
-# dst_dir = r'C:\Users\denni\OneDrive\python try\target_folder'
 file_inp = input("What is full directory where the file to be copied is located\n", )
 inp_file = rf"{file_inp}"
 dir_dst = input("what is full destination directory\n", )
