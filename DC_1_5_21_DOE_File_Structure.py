@@ -33,7 +33,7 @@ for num in range(1, doe_num + 1):
     sub_file = f'_DOE_{num}'
     new_file_name = before_ext + sub_file + file_ext
     
-    target_path = full_dir + "\\" + orig_file_name  # path object later 
+    target_path = os.path.join(full_dir, orig_file_name)  # path object later 
     new_path = target_path[:len(target_path) - file_extension_len] \
                 + sub_file \
                 + target_path[len(target_path) - file_extension_len:]
